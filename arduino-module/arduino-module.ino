@@ -1,4 +1,11 @@
-
+/*
+ * Code by : github.com/heronimus
+ * 			 heronimustra@gmail.com
+ * 			 @2017
+ * Education & experimental fair use.
+ * website : http://kucik.in
+ *
+ */
 
 //---------LIBRARY----------
   #include <dht.h>
@@ -82,9 +89,7 @@ void setup() {
   pinMode(lampu1, OUTPUT);
   pinMode(lampu2, OUTPUT);
   pinMode(lampuAC, OUTPUT);
-//  digitalWrite(lampu1,HIGH);
-//  digitalWrite(lampu2,HIGH);
-//  digitalWrite(lampuAC,HIGH);
+
   
   //PhotoCellSensor Setup
   PClightLevel=analogRead(sensorPhotoCell);
